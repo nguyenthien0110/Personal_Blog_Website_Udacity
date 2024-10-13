@@ -1,0 +1,21 @@
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+    color: #333;
+}
+
+p {
+    font-family: 'Verdana', sans-serif;
+    line-height: 1.6;
+}
+
+p.bold {
+    font-weight: bold;
+}
+
+p.italic {
+    font-style: italic;
+}
+
+p.underline {
+    text-decoration: underline;
+}
