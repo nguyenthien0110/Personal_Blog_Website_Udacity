@@ -96,6 +96,63 @@ button:hover {
     text-decoration: underline;
 }
 
+.blog-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.author-info img.avatar {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+.author-info .author-details h3 {
+    font-size: 1.4em;
+    color: #333;
+}
+
+.author-info .bio {
+    color: #555;
+}
+
+.social-sharing ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding-left: 0;
+}
+
+.social-sharing ul li a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+.social-sharing ul li a:hover {
+    text-decoration: underline;
+}
+
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    color: #666;
+    margin-top: 5px;
+}
+
 @media (max-width: 768px) {
     .blog-layout {
         flex-direction: column;
